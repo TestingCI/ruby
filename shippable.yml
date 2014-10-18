@@ -8,5 +8,6 @@ rvm:
 archive: true
 before_script:
  # - echo 'Europe/Paris' | sudo tee /etc/timezone
+  - echo 'Asia/Chennai' | sudo tee /etc/timezone
   - sudo dpkg-reconfigure --frontend noninteractive tzdata
   - rake db:migrate
