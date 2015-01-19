@@ -8,6 +8,7 @@ build_image: shippable/minv2:beta
 
 
 archive: true
+
 before_script:
  # - echo 'Europe/Paris' | sudo tee /etc/timezone
   - echo 'Asia/Calcutta' | sudo tee /etc/timezone
